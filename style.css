@@ -282,7 +282,6 @@ nav ul li a:hover::after {
   font-size: 22px;
   margin-bottom: 15px;
   color: #561c24;
-  text-align: center;
 }
 
 .design p {
@@ -290,7 +289,6 @@ nav ul li a:hover::after {
   font-size: 16px;
   margin-bottom: 20px;
   color: #7c4a4a;
-  text-align: center;
 }
 
 .design a {
@@ -447,6 +445,25 @@ nav ul li a:hover::after {
 
 
 .project {
+  flex: 1 1 250px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: #000000;
+}
+.design a:hover {
+  background: #561c24;
+  transform: translateY(-3px);
+}
+
+.design:hover {
+  transform: translateY(-8px);
+  box-shadow: #7c4a4a;
+}
+
+
+.design {
   flex: 1 1 250px;
   background: #fff;
   padding: 20px;
