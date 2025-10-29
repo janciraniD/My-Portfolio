@@ -8,13 +8,13 @@
 
 body {
   background: #ffffff;
-  color: #7c4a4a; 
+  color: #6d2932; 
 }
 
 #header {
   width: 100%;
   height: 100vh;
-  background-color: #7c4a4a;
+  background-color: #6d2932;
   background-size: cover;
   background-position: center;
 }
@@ -96,6 +96,7 @@ nav ul li a:hover::after {
 #about .container,
 #skills .container,
 #projects .container,
+#design .container,
 #contact .container {
   display: flex;
   flex-direction: column; 
@@ -106,13 +107,13 @@ nav ul li a:hover::after {
 .sub-title {
   font-size: 50px;
   font-weight: 600;
-  color: #7c4a4a;
+  color: #6d2932;
   margin-bottom: 40px;
   text-align: center;
   width: 100%;
 }
 #about {
-  color: #7c4a4a;
+  color: #6d2932;
 }
 
 .row {
@@ -135,7 +136,7 @@ nav ul li a:hover::after {
 
 .project p {
   font-size: 16px;
-  color: #7c4a4a;      
+  color: #6d2932;      
   margin-top: 10px;
   line-height: 1.6; 
 }
@@ -147,7 +148,7 @@ nav ul li a:hover::after {
 }
 #skills {
   background: #f9f9f9;
-  color: #7c4a4a;
+  color: #6d2932;
 }
 
 .skills-list {
@@ -168,7 +169,7 @@ nav ul li a:hover::after {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 #projects {
-  color: #7c4a4a;
+  color: #6d2932;
 }
 
 .projects-list {
@@ -220,7 +221,7 @@ nav ul li a:hover::after {
   flex-grow: 1;
   font-size: 16px;
   margin-bottom: 20px;
-  color: #7c4a4a;
+  color: #6d2932;
 }
 
 .project a {
@@ -236,7 +237,7 @@ nav ul li a:hover::after {
   transition: 0.3s ease;
 }
 #design {
-  color: #7c4a4a;
+  color: #6d2932;
 }
 
 .design-list {
@@ -288,7 +289,7 @@ nav ul li a:hover::after {
   flex-grow: 1;
   font-size: 16px;
   margin-bottom: 20px;
-  color: #7c4a4a;
+  color: #6d2932;
 }
 
 .design a {
@@ -360,7 +361,7 @@ nav ul li a:hover::after {
   max-width: 600px;
   font-size: 18px;
   line-height: 1.8;
-  color: #7c4a4a;
+  color: #6d2932;
   text-align: justify;
 }
 
@@ -390,7 +391,7 @@ nav ul li a:hover::after {
 #contact p {
   font-size: 18px;
   margin: 12px 0;
-  color: #7c4a4a;
+  color: #6d2932;
 }
 
 #contact a {
@@ -401,7 +402,7 @@ nav ul li a:hover::after {
 }
 
 #contact a:hover {
-  color: #561c24;
+  color: #6d2932;
   text-decoration: underline;
 }
 #contact .container {
@@ -410,7 +411,7 @@ nav ul li a:hover::after {
   background: white;
   padding: 40px 30px;
   border-radius: 12px;
-  border: 3px solid #7c4a4a;
+  border: 3px solid #6d2932;
    box-shadow: 0 6px,18px rgba(0,0,0,0.8);
 }
 
@@ -440,7 +441,7 @@ nav ul li a:hover::after {
 
 .project:hover {
   transform: translateY(-8px);
-  box-shadow: #7c4a4a;
+  box-shadow: #6d2932;
 }
 
 
@@ -459,7 +460,7 @@ nav ul li a:hover::after {
 
 .design:hover {
   transform: translateY(-8px);
-  box-shadow: #7c4a4a;
+  box-shadow: #6d2932;
 }
 
 
@@ -472,12 +473,12 @@ nav ul li a:hover::after {
   box-shadow: #000000;
 }
 #contact {
-  color: #7c4a4a;
+  color: #6d2932;
   background-color: #f9f9f9;
 }
 
 #contact a {
-  color: #7c4a4a;
+  color: #6d2932;
   text-decoration: none;
   font-weight: 500;
 }
