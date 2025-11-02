@@ -7,14 +7,14 @@
 }
 
 body {
-  background: #ffffff;
-  color: #6d2932; 
+  background: #fff;
+  color: #11120d; 
 }
 
 #header {
   width: 100%;
   height: 100vh;
-  background-color: #6d2932;
+  background-color: #11120d;
   background-size: cover;
   background-position: center;
 }
@@ -32,7 +32,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -64,7 +64,7 @@ nav ul li a:hover::after {
 .header-text {
   flex: 1;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
 }
 
 .header-text h1 {
@@ -73,12 +73,12 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-  color: #ffffff;
+  color: #fff;
 }
 
 .header-text p {
   font-size: 24px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .header-image {
@@ -107,13 +107,13 @@ nav ul li a:hover::after {
 .sub-title {
   font-size: 50px;
   font-weight: 600;
-  color: #6d2932;
+  color: #11120d;
   margin-bottom: 40px;
   text-align: center;
   width: 100%;
 }
 #about {
-  color: #6d2932;
+  color: #11120d;
 }
 
 .row {
@@ -132,11 +132,13 @@ nav ul li a:hover::after {
 .about-col-1 img {
   width: 250px;
   border-radius: 15px;
+  border: 2px solid #11120d;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
 }
 
 .project p {
   font-size: 16px;
-  color: #6d2932;      
+  color: #11120d;      
   margin-top: 10px;
   line-height: 1.6; 
 }
@@ -147,8 +149,8 @@ nav ul li a:hover::after {
   max-width: 800px;
 }
 #skills {
-  background: #f9f9f9;
-  color: #6d2932;
+  background: #fff;
+  color: #11120d;
 }
 
 .skills-list {
@@ -169,7 +171,7 @@ nav ul li a:hover::after {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 #projects {
-  color: #6d2932;
+  color: #11120d;
 }
 
 .projects-list {
@@ -188,7 +190,7 @@ nav ul li a:hover::after {
   font-size: 40px;
   margin-bottom: 40px;
   font-family: 'Playfair Display', serif;
-  color: #6d2932;
+  color: #11120d;
   text-align: center;
 }
 
@@ -204,7 +206,8 @@ nav ul li a:hover::after {
   background: #fff;
   padding: 25px 20px;
   border-radius: 16px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  border: 1.5px solid #11120d;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.8);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -214,21 +217,21 @@ nav ul li a:hover::after {
 .project h3 {
   font-size: 22px;
   margin-bottom: 15px;
-  color: #561c24;
+  color: #11120d;
 }
 
 .project p {
   flex-grow: 1;
   font-size: 16px;
   margin-bottom: 20px;
-  color: #6d2932;
+  color: #11120d;
 }
 
 .project a {
   display: inline-block;
   text-decoration: none;
   padding: 10px 18px;
-  background: #6d2932;
+  background: #11120d;
   color: #fff;
   font-size: 14px;
   font-weight: 600;
@@ -237,7 +240,7 @@ nav ul li a:hover::after {
   transition: 0.3s ease;
 }
 #designs {
-  color: #6d2932;
+  color: #11120d;
 }
 
 .designs-list {
@@ -256,7 +259,7 @@ nav ul li a:hover::after {
   font-size: 40px;
   margin-bottom: 40px;
   font-family: 'Playfair Display', serif;
-  color: #6d2932;
+  color: #11120d;
   text-align: center;
 }
 
@@ -272,7 +275,8 @@ nav ul li a:hover::after {
   background: #fff;
   padding: 25px 20px;
   border-radius: 16px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  border: 1.5px solid #11120d;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.8);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -282,21 +286,21 @@ nav ul li a:hover::after {
 .design h3 {
   font-size: 22px;
   margin-bottom: 15px;
-  color: #561c24;
+  color: #11120d;
 }
 
 .design p {
   flex-grow: 1;
   font-size: 16px;
   margin-bottom: 20px;
-  color: #6d2932;
+  color: #11120d;
 }
 
 .design a {
   display: inline-block;
   text-decoration: none;
   padding: 10px 18px;
-  background: #6d2932;
+  background: #11120d;
   color: #fff;
   font-size: 14px;
   font-weight: 600;
@@ -314,7 +318,7 @@ nav ul li a:hover::after {
   font-size: 36px;
   margin-bottom: 40px;
   font-family: 'Playfair Display', serif;
-  color: #6d2932;
+  color: #11120d;
 }
 .skills-list {
   display: flex;
@@ -325,11 +329,11 @@ nav ul li a:hover::after {
 }
 .skill {
   padding: 15px 25px;
-  border: 2px solid #6d2932;
+  border: 2px solid #11120d;
   border-radius: 10px;
   font-size: 18px;
   font-weight: 500;
-  color: #6d2932;
+  color: #11120d;
   background: #fff;
   transition: 0.3s ease;
 }
@@ -342,7 +346,7 @@ nav ul li a:hover::after {
   font-size: 36px;
   margin-bottom: 40px;
   font-family: 'Playfair Display', serif;
-  color: #6d2932;
+  color: #11120d;
   text-align: center;
 }
 .row {
@@ -361,7 +365,7 @@ nav ul li a:hover::after {
   max-width: 600px;
   font-size: 18px;
   line-height: 1.8;
-  color: #6d2932;
+  color: #11120d;
   text-align: justify;
 }
 
@@ -385,38 +389,38 @@ nav ul li a:hover::after {
   font-size: 36px;
   margin-bottom: 30px;
   font-family: 'Playfair Display', serif;
-  color: #6d2932;
+  color: #11120d;
 }
 
 #contact p {
   font-size: 18px;
   margin: 12px 0;
-  color: #6d2932;
+  color: #11120d;
 }
 
 #contact a {
-  color: #6d2932;
+  color: #11120d;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 #contact a:hover {
-  color: #6d2932;
+  color: #11120d;
   text-decoration: underline;
 }
 #contact .container {
   max-width: 600px;
   margin: auto;
-  background: white;
+  background: #fff;
   padding: 40px 30px;
   border-radius: 12px;
-  border: 3px solid #6d2932;
-   box-shadow: 0 6px 18px rgba(0,0,0,0.8);
+  border: 2px solid #11120d;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.8);
 }
 
 .skill:hover {
-  background: #6d2932;
+  background: #11120d;
   color: #fff;
   transform: translateY(-5px);
 }
@@ -441,13 +445,13 @@ nav ul li a:hover::after {
 
 
 .project a:hover {
-  background: #561c24;
+  background: #11120d;
   transform: translateY(-3px);
 }
 
 .project:hover {
   transform: translateY(-8px);
-  box-shadow: #6d2932;
+  box-shadow: #11120d;
 }
 
 
@@ -460,13 +464,13 @@ nav ul li a:hover::after {
   box-shadow: #000000;
 }
 .design a:hover {
-  background: #561c24;
+  background: #11120d;
   transform: translateY(-3px);
 }
 
 .design:hover {
   transform: translateY(-8px);
-  box-shadow: #6d2932;
+  box-shadow: #11120d;
 }
 
 
@@ -479,12 +483,12 @@ nav ul li a:hover::after {
   box-shadow: #000000;
 }
 #contact {
-  color: #6d2932;
-  background-color: #f9f9f9;
+  color:#11120d;
+  background-color: #fff;
 }
 
 #contact a {
-  color: #6d2932;
+  color: #11120d;
   text-decoration: none;
   font-weight: 500;
 }
@@ -509,3 +513,20 @@ nav ul li a:hover::after {
     width: 70%;
   }
 }
+footer {
+  background-color: #11120d;  
+  color: #ffffff;             
+  text-align: center;         
+  padding: 20px 0;           
+  font-family: 'Poppins', sans-serif; 
+  font-size: 16px;            
+  width: 100%;                
+  position: relative;         
+  bottom: 0;                  
+}
+
+footer p {
+  margin: 0; 
+  letter-spacing: 0.5px;
+}
+
